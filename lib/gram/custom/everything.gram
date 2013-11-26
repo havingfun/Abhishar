@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for chat
+ */
+ 
+grammar everything;
+
+public <everything> = [my] [name] [is] [rajesh] [hobbies] [are] [playing] [cricket] [i] [like] [to] [do] [coding] [am] [preparing] [for] [cat]  ;

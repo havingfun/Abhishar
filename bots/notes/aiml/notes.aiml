@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+
+<category><pattern>*</pattern>
+<template>ADD LOG <star/></template>
+</category>
+<category><pattern>Add a note that *</pattern>
+<template>ADD LOG <star/></template>
+</category>
+<category><pattern>mark that *</pattern>
+<template>ADD LOG <star/></template>
+</category>
+<category><pattern>keep in mind that *</pattern>
+<template>ADD LOG <star/></template>
+</category>
+<category><pattern>note that *</pattern>
+<template>ADD LOG <star/></template>
+</category>
+<category><pattern>note *</pattern>
+<template>ADD LOG <star/></template>
+</category>
+<category><pattern>Today</pattern>
+<template>CHECK LOG today</template>
+</category>
+<category><pattern>tell my meetings on *</pattern>
+<template>CHECK LOG <star/></template>
+</category>
+<category><pattern>what *</pattern>
+<template>CHECK LOG <star/></template>
+</category>
+<category><pattern>when *</pattern>
+<template>CHECK LOG <star/></template>
+</category>
+<category><pattern>value of *</pattern>
+<template>FETCH VAR <star/></template>
+</category>
+<category><pattern>what is the value of *</pattern>
+<template>FETCH VAR <star/></template>
+</category>
+<category><pattern>pick the value of *</pattern>
+<template>FETCH VAR <star/></template>
+</category>
+<category><pattern>show the value of *</pattern>
+<template>FETCH VAR <star/></template>
+</category>
+<category><pattern>remove variable *</pattern>
+<template>DELETE VAR <star/></template>
+</category>
+<category><pattern>show the content of *</pattern>
+<template>FETCH CONTENT <star/></template>
+</category>
+<category><pattern>show *</pattern>
+<template>FETCH CONTENT <star/></template>
+</category>
+<category><pattern>list *</pattern>
+<template>FETCH CONTENT <star/></template>
+</category>
+<category><pattern>display *</pattern>
+<template>FETCH CONTENT <star/></template>
+</category>
+<category><pattern>fetch *</pattern>
+<template>FETCH CONTENT <star/></template>
+</category>
+<category><pattern>remove content *</pattern>
+<template>DELETE CONTENT <star/></template>
+</category>
+<category><pattern>update * to *</pattern>
+<template>UPDATE VAR <star/> SET <star index="2"/></template>
+</category>
+<category><pattern>put * to *</pattern>
+<template>UPDATE VAR <star/> SET <star index="2"/></template>
+</category>
+<category><pattern>change * to *</pattern>
+<template>UPDATE VAR <star/> SET <star index="2"/></template>
+</category>
+<category><pattern>make the value of * *</pattern>
+<template>UPDATE VAR <star/> SET <star index="2"/></template>
+</category>
+<category><pattern>add variable * as *</pattern>
+<template>ADD VAR <star/> AS <star index="2"/></template>
+</category>
+<category><pattern>new * as *</pattern>
+<template>ADD VAR <star/> AS <star index="2"/></template>
+</category>
+<category><pattern>new variable * as *</pattern>
+<template>ADD VAR <star/> AS <star index="2"/></template>
+</category>
+<category><pattern>new value * as *</pattern>
+<template>ADD VAR <star/> AS <star index="2"/></template>
+</category>
+<category><pattern>save content * equal *</pattern>
+<template>ADD TO CONTENTS<star/> AS <star index="2"/></template>
+</category>
+<category><pattern>store * in *</pattern>
+<template>ADD TO CONTENTS<star index="2"/> AS <star/></template>
+</category>
+</aiml>

@@ -1,0 +1,17 @@
+#JSGF V1.0;
+grammar mygrammar;
+
+import <setalarm.*>;
+import <movement.*>;
+import <menu.*>;
+import <hello.*>;
+import <toughtask.*>;
+
+public <greet> = <hello.greet>;
+public <command> = <menu.command>;
+public <alarm> = <setalarm.alarm>;
+public <move> = <movement.move>;
+public <parts> = <movement.parts>;
+public <task> = <toughtask.task>;
+public <register> = <toughtask.register>;
+

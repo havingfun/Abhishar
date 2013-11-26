@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+ * JSGF names Grammar for Kirti
+ */
+
+grammar names;
+
+public <names> = (rajesh | prashant | saurabh | ritu) * ;

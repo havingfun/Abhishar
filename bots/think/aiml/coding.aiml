@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>Load Template</pattern>
+<template>load_template</template>
+</category>
+<category><pattern>Show Fibonacci</pattern>
+<template>fibonacci</template>
+</category>
+<category><pattern>Write a program to *</pattern>
+<template>wap <star/></template>
+</category>
+<category><pattern>* Solve my Problem *</pattern>
+<template>qa_system</template>
+</category>
+<category><pattern>Solve my Problem *</pattern>
+<template>qa_system</template>
+</category>
+<category><pattern>Solve my Problem</pattern>
+<template>qa_system</template>
+</category>
+
+</aiml>

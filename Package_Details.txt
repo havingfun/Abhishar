@@ -1,0 +1,21 @@
+
+
+Abhishar - Your Partner in Handling Stuffs.
+
+External API's used -
+
+1. Voce (Sphinx) Library for speech to text.
+2. Program AB for AIML interpreter.
+3. OpenEphrya for Question Answering System
+4. Google Voice to text API
+5. Lobo Browser
+
+
+Designed - 
+
+1. Application Control Class
+2. Speaking Calculator Class
+3. Integrating All and Hacking into API's to edit them.
+4. Building the Required Dictionary.
+5. Context Building Class.
+6. Social Networking News.

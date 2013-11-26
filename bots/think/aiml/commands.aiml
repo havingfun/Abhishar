@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>Erase</pattern>
+<template>Press KeyEvent.VK_BACK_SPACE</template>
+</category>
+<category><pattern>Type</pattern>
+<template>Start Typing</template>
+</category>
+<category><pattern>Stop</pattern>
+<template>End Typing</template>
+</category>
+</aiml>

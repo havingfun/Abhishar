@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for dialog manager example
+ */
+grammar menu;
+
+public <command> =      
+                        listen to commands      	   { goto_commands } |
+                        Gesture Recognition Mode       { goto_gestures } |
+                        Lets have a Chat               { goto_chat } |
+						What is your name	|
+                        Who is your Creator		|		    
+						What is [current] (time | Day | Date | Month | Year)	| 
+						exit the program        { exit } |
+						quit;
+						

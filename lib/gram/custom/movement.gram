@@ -1,0 +1,7 @@
+#JSGF V1.0;
+grammar movement;
+
+import <integers.*>;
+
+public <move> = (move | walk) <integers.int1to99> steps to the (front | right | left | back) ;
+public <parts> = move [(right | left)] (limb | palm | neck | shoulder) to (up | down | left | right);

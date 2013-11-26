@@ -1,0 +1,117 @@
+*
+{
+	font-family: sans-serif;
+}
+body
+{
+	width: 900px;
+	padding: 2px;
+}
+h1
+{
+	font-size: 18pt;
+	color: white;
+	background-color: #999;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	width: 875px;
+	z-index: 1;
+}
+#header
+{
+	background-color: white;
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 20pt;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	z-index: 1;
+}
+.box
+{
+	background-color: #eaeaea;
+	padding: 2px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 425px;
+}
+h2
+{
+	font-size: 10pt;
+	margin-top: 0px;
+}
+#dialogue-history-box
+{
+	position: absolute;
+	top: 50px;
+	left: 450px;
+	margin-bottom: 20px;
+	z-index: 0;
+}
+#dialogue-history-box h2
+{
+	text-decoration: underline;
+	margin-bottom: 2px;
+}
+#last-user-input-box h2, #last-bot-reply-box h2
+{
+	display: inline;
+	margin-right: 10px;
+}
+#interaction
+{
+	position: fixed;
+	top: 50px;
+	left: 10px;
+}
+#last-user-input, #last-bot-reply
+{
+	display: inline;
+}
+label
+{
+	vertical-align: top;
+	margin-right: 5px;
+}
+input
+{
+	font-family: monospace;
+	font-size: 8pt;
+}
+.user-input, .bot-reply
+{
+	font-family: monospace;
+	font-size: 9pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.label
+{
+	font-weight: bold;
+}
+.user-input .label, .user-name
+{
+	color: orange;
+}
+.bot-reply .label, .bot-name
+{
+	color: darkgreen;
+}
+.footer
+{
+	position: fixed;
+	bottom: 0px;
+	font-size: 8pt;
+	font-style: italic;
+}
+pre
+{
+	font-family: monospace;
+}

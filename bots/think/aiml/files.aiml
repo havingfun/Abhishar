@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>Cut</pattern>
+<template>Press KeyEvent.VK_CUT</template>
+</category>
+<category><pattern>Copy</pattern>
+<template>Press KeyEvent.VK_COPY</template>
+</category>
+<category><pattern>Paste</pattern>
+<template>Press KeyEvent.VK_PASTE</template>
+</category>
+
+</aiml>

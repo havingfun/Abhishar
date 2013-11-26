@@ -1,0 +1,9 @@
+#JSGF V1.0;
+grammar importtest;
+
+import <times.*>;
+import <integers.*>;
+
+public <greeting> = hello universe | the ultimate answer is <integers.int1to99> ;
+public <othergreeting> = see you at <times.absoluteTime>;
+

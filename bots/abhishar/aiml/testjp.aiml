@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: testjp.aiml -->
+<!-- Abhishar -->
+<category><pattern>GREETINGS</pattern>
+<template>????????????????????????</template>
+</category>
+<category><pattern>?????</pattern>
+<template><srai>GREETINGS</srai></template>
+</category>
+</aiml>

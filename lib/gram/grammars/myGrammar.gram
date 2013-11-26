@@ -1,0 +1,10 @@
+#JSGF V1.0;
+grammar mygrammar;
+
+import <times.*>;
+import <integers.*>;
+
+public <setalarm> = set an alarm of <times.absoluteTime>;
+public <greeting> = say <integers.int1to99> ;
+public <othergreeting> = see you at <times.absoluteTime>;
+

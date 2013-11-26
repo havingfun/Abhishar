@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>Close</pattern>
+<template>close application</template>
+</category>
+<category><pattern>Open *</pattern>
+<template>open <star/></template>
+</category>
+</aiml>

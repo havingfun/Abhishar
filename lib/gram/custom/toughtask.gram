@@ -1,0 +1,5 @@
+#JSGF V1.0;
+grammar toughtask;
+
+public <task> = (find | identify | recognize | pick | bring | push | pull) (ball | prashant | pen | cup);
+public <register> = register (him | her | it | them | person in the front | me);

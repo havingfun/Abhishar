@@ -1,0 +1,7 @@
+#JSGF V1.0;
+grammar calculator;
+
+import <integers.*>;
+
+public <move> = (add | subtract | multiply | divide) <int1to999999999999> (from | with | to) <int1to999999999999>;
+public <system> = exit the program;

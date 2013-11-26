@@ -1,0 +1,7 @@
+#JSGF V1.0;
+grammar setalarm;
+
+import <times.*>;
+
+public <alarm> = set [an] alarm of <times.absoluteTime>;
+

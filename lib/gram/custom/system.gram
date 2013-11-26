@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for System
+ */
+ 
+grammar system;
+
+public <system> = (open | start | close | enter | left | right | up | down | stop listening);

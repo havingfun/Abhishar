@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>Start Training</pattern>
+<template>Question Pattern and Answer Wizard</template>
+</category>
+</aiml>

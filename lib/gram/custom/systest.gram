@@ -1,0 +1,4 @@
+#JSGF V1.0;
+grammar systask;
+
+public <system> = ((shutdown | restart | hibernate) my computer | abort (shutdown | restart | hibernate));

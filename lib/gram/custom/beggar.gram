@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for beggar 
+ */
+ 
+grammar beggar;
+public <beggar> = (apple | snake | dog | fan | jug | kiss | lion | colon | semicolon | enter); 
+public <flags> = (type | stop | quit);
